@@ -221,8 +221,10 @@ namespace Homework_7
                             continue;
                         }
                     }
+                    else if (p.Equals("выход")) break;
                     else
                     {
+                        Console.WriteLine("Запись под данным номером отсутстует.\nПовторите ввод или введите \"выход\" для возврата в главное меню.");
                         p = null;
                     }
                 }
